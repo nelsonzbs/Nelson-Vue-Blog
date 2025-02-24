@@ -1,30 +1,17 @@
-<script setup lang="ts">
-import HelloWorld from './components/HelloWorld.vue'
-</script>
-
+<!--
+ * @Author: Nelsonzbs zhangbaisong@88.com
+ * @Date: 2025-02-21 16:32:28
+ * @LastEditors: Nelsonzbs zhangbaisong@88.com
+ * @LastEditTime: 2025-02-24 09:28:22
+ * @FilePath: \Nelson-Vue-Blog\src\App.vue
+ * @Description: 项目根组件
+-->
 <template>
   <div>
-    <a href="https://vite.dev" target="_blank">
-      <img src="/vite.svg" class="logo" alt="Vite logo" />
-    </a>
-    <a href="https://vuejs.org/" target="_blank">
-      <img src="./assets/vue.svg" class="logo vue" alt="Vue logo" />
-    </a>
+    <h1>松哥博客</h1>
   </div>
-  <HelloWorld msg="Vite + Vue" />
 </template>
 
-<style scoped>
-.logo {
-  height: 6em;
-  padding: 1.5em;
-  will-change: filter;
-  transition: filter 300ms;
-}
-.logo:hover {
-  filter: drop-shadow(0 0 2em #646cffaa);
-}
-.logo.vue:hover {
-  filter: drop-shadow(0 0 2em #42b883aa);
-}
-</style>
+<script setup lang="ts"></script>
+
+<style lang="less" scoped></style>
