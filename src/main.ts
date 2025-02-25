@@ -8,12 +8,15 @@
  */
 import { createApp } from "vue";
 import App from "./App.vue";
-// 插入normalize.css 重置CSS样式,引入全局CSS文件
+// 挂载normalize.css 重置CSS样式,引入全局CSS文件
 import "normalize.css";
 import "./styles/index.less";
-// 路由挂载
+// 挂载路由
 import router from "./router/index";
+// 挂载pinia状态管理工具
+import pinia from "./stores/index";
 
 const app = createApp(App);
 app.use(router);
+app.use(pinia);
 app.mount("#app");
