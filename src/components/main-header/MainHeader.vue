@@ -7,14 +7,13 @@
  * @Description: 头部导航
 -->
 <template>
-  <div class="MainHeader">
-    <h2>MainHeader</h2>
-  </div>
+  <el-header>
+    <div class="MainHeader">
+      <h2>MainHeader</h2>
+    </div>
+  </el-header>
 </template>
 
 <script setup lang="ts"></script>
 
-<style lang="less" scoped>
-.MainHeader {
-}
-</style>
+<style lang="less" scoped></style>
