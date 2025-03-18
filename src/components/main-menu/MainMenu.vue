@@ -2,7 +2,7 @@
  * @Author: Nelsonzbs zhangbaisong@88.com
  * @Date: 2025-03-12 10:31:20
  * @LastEditors: Nelsonzbs zhangbaisong@88.com
- * @LastEditTime: 2025-03-17 19:16:55
+ * @LastEditTime: 2025-03-18 15:46:41
  * @FilePath: \Nelson-Vue-Blog\src\components\main-menu\MainMenu.vue
  * @Description: 左侧导航
 -->
@@ -12,7 +12,7 @@
       <el-menu router="true" unique-opened :collapse="isCollapse">
         <a href="/" class="logo">
           <img src="@/assets/vue.svg" alt="" />
-          <h1>松哥博客后台</h1>
+          <h1 style="font-weight: bold">松哥博客后台</h1>
         </a>
         <el-menu-item index="/home">
           <el-icon><Platform /></el-icon> <span>后台首页</span>
@@ -65,18 +65,16 @@
 </template>
 
 <script setup lang="ts">
-import { ref } from "vue";
-
-const isCollapse = ref(false);
+import { isCollapse } from "../isCollapse";
 </script>
 
 <style lang="less" scoped>
 .el-aside {
-  background-color: white;
+  background-color: #cfd3dc;
   height: 100vh;
   width: auto;
   .el-menu {
-    background-color: white;
+    background-color: #cfd3dc;
     border-right: none;
     width: 200px;
     &.el-menu--collapse {
