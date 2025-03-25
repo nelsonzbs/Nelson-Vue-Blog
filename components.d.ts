@@ -33,8 +33,9 @@ declare module 'vue' {
     ElSubMenu: typeof import('element-plus/es')['ElSubMenu']
     ElTabPane: typeof import('element-plus/es')['ElTabPane']
     ElTabs: typeof import('element-plus/es')['ElTabs']
-    MainHeader: typeof import('./src/components/main-header/MainHeader.vue')['default']
-    MainMenu: typeof import('./src/components/main-menu/MainMenu.vue')['default']
+    MainHeader: typeof import('./src/components/main-header/main-header.vue')['default']
+    MainMenu: typeof import('./src/components/main-menu/main-menu.vue')['default']
+    MainMenuHome: typeof import('./src/components/main-menu-home/MainMenuHome.vue')['default']
     RouterLink: typeof import('vue-router')['RouterLink']
     RouterView: typeof import('vue-router')['RouterView']
   }
